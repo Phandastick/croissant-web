@@ -11,6 +11,12 @@ body{
     flex-direction: column;
 }
 
+.h1 {
+    font-weight: 500;
+    color: #F9FAF8;
+    font-size: 36px;
+}
+
 .containers {
     padding: 0 10vw;
 }
@@ -102,9 +108,36 @@ body{
 /* #region info */
 
 .info-container {
-
-    height: 63vh;
+    height: 70vh;
     border: lightyellow solid 5px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-card-container{
+    display:flex;
+    height: 100%;   
+}
+
+.info-h1 {
+    color:#1F2937;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.info-card {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+}
+
+.info-text {
+    position: relative;
+    top: 160px;
 }
 
 /* #endregion */
@@ -170,18 +203,11 @@ body{
     margin-left: 10%;
 }
 
-.call-to-action-h1 {
-    font-weight: 500;
-    color: #F9FAF8;
-    font-size: 36px;
-}
-
 .call-to-action-subheading {
     font-weight: 300;
     color: #E5E7EB;
     font-size: 28px;
 }
-
 
 .sign-up-btn {
     height:50px;
@@ -206,6 +232,8 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+
+    color:#E5E7EB;
 }
 
 /* #endregion */
