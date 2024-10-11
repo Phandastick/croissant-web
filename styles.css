@@ -58,7 +58,7 @@ body{
 /* #region Hero */
 
 .hero-container {
-    height: 70vh;
+    height: 600px;
     display:flex;
 }
 
@@ -108,7 +108,7 @@ body{
 /* #region info */
 
 .info-container {
-    height: 70vh;
+    height: 475px;
     border: lightyellow solid 5px;
     
     display: flex;
@@ -145,7 +145,7 @@ body{
 /* #region quote */
 
 .quote-container {
-    height: 60vh;
+    height: 400px;
     background-color: #E5E7EB;
 
     display: flex;
@@ -175,7 +175,7 @@ body{
 /* #region call to action */
 
 .call-to-action-wrapper {
-    height: 42vh;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
